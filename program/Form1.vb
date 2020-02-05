@@ -6,6 +6,6 @@
         For i = 1 To 10
             ListBox1.Items.Add(i & " x " & a & " = " & a * i)
         Next
-
+        MsgBox("ok")
     End Sub
 End Class
